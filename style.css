@@ -1,4 +1,35 @@
 body {
     color: white;
     background: black;
+    margin: 0px;
+    font-family: "Metal Mania", system-ui;
+}
+
+header {
+    border-bottom: solid 2px rgb(149, 4, 4);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(149, 4, 4);
+}
+
+section {
+
+    background-color: rgb(132, 234, 247, 1) ;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-texto {
+    margin-right: 3%;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+p {
+    font-size: 25px;
 }
