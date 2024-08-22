@@ -3,6 +3,7 @@ body {
     background: black;
     margin: 0px;
     font-family: "Metal Mania", system-ui;
+    margin-bottom: 100px;
 }
 
 header {
@@ -34,10 +35,6 @@ p {
     font-size: 25px;
 }
 
-img {
-    height: 200px;
-}
-
 .categotias-videos {
     display: flex;
     overflow-x: auto;
@@ -47,4 +44,14 @@ img {
 .categoria {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.categotias-videos img {
+    opacity: 0.5;
+    height: 250px;
+}
+
+.categotias-videos img:hover {
+    opacity: 1;
+    border: 1px solid white;
 }
